@@ -12,6 +12,12 @@ export const NavbarContainer = styled.nav`
   z-index: 5;
   background-color: ${({ intersect }) => (intersect ? "#fff" : "transparent")};
   color: ${({ intersect }) => (intersect ? "#12273D" : "#fff")};
+  @media (max-width: 440px) {
+    padding-right: 0;
+  }
+  @media (max-width: 440px) {
+    padding-left: 15px;
+  }
 `;
 
 export const BoldLogo = styled.span`

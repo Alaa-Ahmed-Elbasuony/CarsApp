@@ -16,6 +16,9 @@ export const TestimonialText = styled.h2`
   @media (max-width: 675px) {
     font-size: 48px;
   }
+  @media (max-width: 444px) {
+    font-size: 32px;
+  }
 `;
 
 export const TestimonialHeading = styled.h3`
@@ -27,6 +30,9 @@ export const TestimonialHeading = styled.h3`
   top: 64px;
   @media (max-width: 675px) {
     font-size: 24px;
+  }
+  @media (max-width: 444px) {
+    font-size: 17px;
   }
 `;
 export const TestimonialCard = styled.div`
@@ -46,6 +52,12 @@ export const TestimonialCard = styled.div`
   @media (max-width: 785px) {
     width: 400px;
     margin: auto;
+  }
+  @media (max-width: 490px) {
+    height: 70rem;
+  }
+  @media (max-width: 440px) {
+    width: 33rem;
   }
 `;
 export const TestimonialPara = styled.p`
@@ -99,6 +111,14 @@ export const CarImg = styled.img`
     width: 180px;
     height: 120px;
     right: -4rem;
+  }
+  @media (max-width: 490px) {
+    width: 180px;
+    height: 160px;
+    right: 1rem;
+  }
+  @media (max-width: 350px) {
+    right: 2.5em;
   }
 `;
 export const Dots = styled.div`

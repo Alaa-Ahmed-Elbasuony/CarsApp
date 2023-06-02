@@ -14,6 +14,9 @@ export const ServicesH2 = styled.div`
   color: #ebebeb;
   padding-top: 64px;
   text-align: center;
+  @media (max-width: 444px) {
+    font-size: 32px;
+  }
 `;
 export const ServicesH3 = styled.h3`
   font-weight: 700;
@@ -22,6 +25,9 @@ export const ServicesH3 = styled.h3`
   position: absolute;
   top: 25%;
   left: 45%;
+  @media (max-width: 444px) {
+    font-size: 32px;
+  }
 `;
 export const ServicesText = styled.div`
   position: relative;

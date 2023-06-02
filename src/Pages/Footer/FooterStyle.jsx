@@ -84,15 +84,25 @@ export const Email = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  @media (max-width: 360px) {
+    flex-direction: column;
+    gap: 1rem;
+  }
 `;
 export const EmailInput = styled.input`
   padding: 15px;
   width: 275px;
   border: 1px solid #741906;
+  @media (max-width: 444px) {
+    width: 210px;
+  }
 `;
 export const EmailButton = styled.button`
   color: #fff;
   width: 135px;
+  @media (max-width: 444px) {
+    width: 115px;
+  }
   font-size: 18px;
   padding: 10px;
   background-color: #741906;

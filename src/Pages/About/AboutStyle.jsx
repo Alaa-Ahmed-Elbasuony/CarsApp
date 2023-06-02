@@ -16,6 +16,9 @@ export const AboutH2 = styled.div`
   font-size: 86px;
   line-height: 64px;
   color: #ebebeb;
+  @media (max-width: 444px) {
+    font-size: 34px;
+  }
 `;
 export const AboutH3 = styled.h3`
   position: absolute;
@@ -24,6 +27,9 @@ export const AboutH3 = styled.h3`
   font-weight: 700;
   font-size: 46px;
   color: #741906;
+  @media (max-width: 444px) {
+    font-size: 24px;
+  }
 `;
 export const TextWrapper = styled.div`
   margin-top: 200px;

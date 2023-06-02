@@ -123,6 +123,12 @@ export const CarDescription = styled.p`
 export const Container = styled.div`
   display: flex;
   align-items: center;
+  @media (max-width: 445px) {
+    gap: 5rem;
+  }
+  @media (max-width: 445px) {
+    flex-direction: column;
+  }
   gap: 10rem;
 `;
 export const SeatNLuggage = styled.div`
