@@ -28,11 +28,11 @@ export const Logo = styled.h1`
   font-weight: 500;
 `;
 
-export const NavbarList = styled.ul`
+export const NavbarList = styled.div`
   list-style-type: none;
 `;
 
-export const NavbarListElement = styled.li`
+export const NavbarListElement = styled.div`
   display: inline-block;
   margin-left: 30px;
   cursor: pointer;
