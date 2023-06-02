@@ -6,6 +6,8 @@ import {
   OverlayText,
   ContactBtn,
   CarParent,
+  OverlayH3,
+  OverlayP,
 } from "./ModelsStyle";
 
 function Models() {
@@ -16,8 +18,10 @@ function Models() {
           <CarModel src={image.src} alt={image.alt} />
           <Overlay>
             <OverlayText>
-              <h3>Tesla Model 3</h3>
-              <p>Disruptive, avant-garde, futuristic, innovative.</p>
+              <OverlayH3>Tesla Model 3</OverlayH3>
+              <OverlayP>
+                Disruptive, avant-garde, futuristic, innovative.
+              </OverlayP>
               <ContactBtn>Contact</ContactBtn>
             </OverlayText>
           </Overlay>

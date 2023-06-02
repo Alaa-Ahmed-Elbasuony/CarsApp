@@ -35,7 +35,7 @@ export const Cards = styled.div`
   display: flex;
   & .Selctor {
     transform: translateX(
-      calc(${({ slideFactor }) => -1 * slideFactor * 100}%)
+      calc(${({ slidefactor }) => -1 * slidefactor * 100}%)
     );
   }
 `;

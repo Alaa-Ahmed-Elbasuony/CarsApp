@@ -75,7 +75,7 @@ function Cars() {
               <CarsH3>Cars</CarsH3>
             </CarsText>
             <AddCar>
-              <Cards slideFactor={slideFactor}>
+              <Cards slidefactor={slideFactor}>
                 {cTx.cars.map((data, i) => (
                   <CardContainer className="Selctor" key={data.id}>
                     <Card>
@@ -126,6 +126,7 @@ function Cars() {
                 {cTx.cars.map((car, i) =>
                   i <= 3 ? (
                     <Dot
+                      key={i + 25}
                       onClick={() => sliderHandeler(i)}
                       className={slideFactor === i ? "active" : "not-active"}
                     ></Dot>

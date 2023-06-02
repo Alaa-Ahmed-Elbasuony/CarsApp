@@ -46,7 +46,7 @@ export const Overlay = styled.div`
     opacity: 1;
   }
 `;
-export const OverlayText = styled.p`
+export const OverlayText = styled.div`
   color: #fff;
   font-size: 18px;
 `;
@@ -88,3 +88,5 @@ export const CarParent = styled.div`
     grid-template-columns: 1fr;
   }
 `;
+export const OverlayH3 = styled.h3``;
+export const OverlayP = styled.p``;

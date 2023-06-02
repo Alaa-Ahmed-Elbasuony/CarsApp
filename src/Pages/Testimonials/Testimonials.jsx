@@ -70,6 +70,7 @@ function Testimonials() {
               {data.map((comment, i) =>
                 i <= 3 ? (
                   <Dot
+                    key={i + 50}
                     onClick={() => sliderHandeler(i)}
                     className={slideFactor === i ? "active" : "not-active"}
                   ></Dot>
